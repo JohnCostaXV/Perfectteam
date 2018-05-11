@@ -11,7 +11,6 @@ import os
 client = discord.Client()
 testmsgid = None
 testmsguser = None
-token = secreto.meu_token()
 
 COR =0x3498DB
 msg_id = None
