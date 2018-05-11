@@ -264,4 +264,4 @@ async def on_message(message):
         await client.send_message(message.channel, random.choice(messages))
         await asyncio.sleep(21600)
 
-client.run(token)
+client.run(os.environ.get("BOT_TOKEN"))
